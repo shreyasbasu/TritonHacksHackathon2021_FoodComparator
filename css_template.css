@@ -1,0 +1,39 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #title{
+    font-size: 2em;
+    padding: 1vw;
+    text-align: center;
+  }
+  #board{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .slide{
+    width: calc(50% - 6px - 2vw);
+    padding: 1vw;
+    text-align: center;
+  }
+  .slide div{
+    margin-bottom: 3vh;
+  }
+  h2{
+    margin-bottom: 1vh;
+  }
+  .imageCollage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45vw;
+    justify-content: center;
+  }
+  .imageCollage img{
+    max-width: 15vw;
+    max-height: 15vh;
+    border: 1px solid black;
+    padding: 0.5vw;
+  }
